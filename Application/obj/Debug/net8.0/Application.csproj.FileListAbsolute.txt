@@ -1,0 +1,23 @@
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.sourcelink.json
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\bin\Debug\net8.0\Application.deps.json
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\bin\Debug\net8.0\Application.runtimeconfig.json
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\bin\Debug\net8.0\Application.dll
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\bin\Debug\net8.0\Application.pdb
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\bin\Debug\net8.0\Domain.dll
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\bin\Debug\net8.0\Domain.pdb
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.dll
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\refint\Application.dll
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.pdb
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.genruntimeconfig.cache
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\ref\Application.dll
