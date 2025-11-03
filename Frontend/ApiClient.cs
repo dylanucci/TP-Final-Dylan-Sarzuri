@@ -1156,6 +1156,12 @@ namespace Frontend.Client
         [Newtonsoft.Json.JsonProperty("contraseña", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Contraseña { get; set; }
 
+
+        public string GetInfo()
+        {
+            return $"Id: {this.IdCliente}\nNombre y Apellido: {this.Nombre} {this.Apellido}\nTelefono: {this.Telefono}\nEmail: {this.Email}\nContraseña{this.Contraseña}";
+        }
+
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.1.0 (NJsonSchema v11.5.1.0 (Newtonsoft.Json v13.0.0.0))")]

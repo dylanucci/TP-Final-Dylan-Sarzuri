@@ -34,3 +34,5 @@ D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Frontend\b
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Frontend\obj\Debug\net8.0-windows\Frontend.Forms.AdminUI.resources
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Frontend\obj\Debug\net8.0-windows\Frontend.Forms.ClienteUI.resources
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Frontend\obj\Debug\net8.0-windows\Frontend.Register.resources
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Frontend\obj\Debug\net8.0-windows\Frontend.Forms.Login.resources
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Frontend\obj\Debug\net8.0-windows\Frontend.sourcelink.json

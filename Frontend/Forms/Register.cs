@@ -1,4 +1,6 @@
 ﻿using Frontend.Client;
+using Frontend.Forms;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,14 +16,46 @@ namespace Frontend
     public partial class Register : Form
     {
         private readonly IApiClient _client;
-        public Register(IApiClient client)
+        private readonly IServiceProvider _serviceProvider;
+        public Register(IApiClient client, IServiceProvider serviceProvider)
         {
             _client = client;
             InitializeComponent();
+            _serviceProvider = serviceProvider;
         }
 
         private void Register_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private async void btnRegistrarse_Click(object sender, EventArgs e)
+        {
+            ClienteUI clienteUI = _serviceProvider.GetRequiredService<ClienteUI>();
+
+            var clienteDTO = new ClienteDTO()
+            {
+                Nombre = txtNombre.Text,
+                Apellido = txtApellido.Text,
+                Telefono = txtTelefono.Text,
+                Email = txtEmail.Text,
+                Contraseña = txtContraseña.Text
+            };
+
+            try
+            {
+                var clienteCreated = await _client.ClientesPOSTAsync(clienteDTO);
+
+                MessageBox.Show($"Registro Exitoso\n{clienteCreated.GetInfo}");
+
+                this.Close();
+
+                clienteUI.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
 
         }
     }

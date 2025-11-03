@@ -1,5 +1,4 @@
-﻿using Frontend.Client;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,20 +10,13 @@ using System.Windows.Forms;
 
 namespace Frontend.Forms
 {
-    public partial class ClienteUI : Form
+    public partial class Login : Form
     {
-
-        private ClienteDTO _clienteDTO;
-
-        public ClienteUI(ClienteDTO clienteDTO)
+        public Login()
         {
-            _clienteDTO = clienteDTO;
             InitializeComponent();
         }
 
-        private void ClienteUI_Load(object sender, EventArgs e)
-        {
 
-        }
     }
 }
