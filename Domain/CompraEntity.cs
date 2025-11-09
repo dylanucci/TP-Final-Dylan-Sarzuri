@@ -12,11 +12,9 @@ namespace Domain
 
         public int ClienteId { get; set; }
 
-        public DateOnly Fecha { get; set; }
+        public DateTime Fecha { get; set; }
 
-        public string? Total { get; set; }
-
-        public virtual ClienteEntity Cliente { get; set; } = null!;
+        public int? Total { get; set; }
 
         public virtual ICollection<DetalleEntity> Detalles { get; set; } = new List<DetalleEntity>();
     }

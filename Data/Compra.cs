@@ -11,11 +11,8 @@ public partial class Compra
 
     public int ClienteId { get; set; }
 
-    public DateOnly Fecha { get; set; }
+    public DateTime Fecha { get; set; }
 
-    public string? Total { get; set; }
-
-    public virtual Cliente Cliente { get; set; } = null!;
-
+    public int? Total { get; set; }
     public virtual ICollection<Detalle> Detalles { get; set; } = new List<Detalle>();
 }

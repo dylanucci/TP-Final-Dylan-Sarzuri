@@ -21,3 +21,4 @@ D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Domain\obj
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Domain\obj\Debug\net8.0\Domain.pdb
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Domain\obj\Debug\net8.0\Domain.sourcelink.json

@@ -21,3 +21,4 @@ D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Applicatio
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.pdb
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.genruntimeconfig.cache
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\ref\Application.dll
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Application\obj\Debug\net8.0\Application.sourcelink.json

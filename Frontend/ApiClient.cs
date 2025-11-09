@@ -1156,39 +1156,6 @@ namespace Frontend.Client
         [Newtonsoft.Json.JsonProperty("contraseña", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Contraseña { get; set; }
 
-
-        public string GetInfo()
-        {
-            return $"Id: {this.IdCliente}\nNombre y Apellido: {this.Nombre} {this.Apellido}\nTelefono: {this.Telefono}\nEmail: {this.Email}\nContraseña{this.Contraseña}";
-        }
-
-    }
-
-    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.1.0 (NJsonSchema v11.5.1.0 (Newtonsoft.Json v13.0.0.0))")]
-    public partial class ClienteEntity
-    {
-
-        [Newtonsoft.Json.JsonProperty("idCliente", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public int IdCliente { get; set; }
-
-        [Newtonsoft.Json.JsonProperty("nombre", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string Nombre { get; set; }
-
-        [Newtonsoft.Json.JsonProperty("apellido", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string Apellido { get; set; }
-
-        [Newtonsoft.Json.JsonProperty("telefono", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string Telefono { get; set; }
-
-        [Newtonsoft.Json.JsonProperty("email", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string Email { get; set; }
-
-        [Newtonsoft.Json.JsonProperty("contraseña", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string Contraseña { get; set; }
-
-        [Newtonsoft.Json.JsonProperty("compras", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.Collections.Generic.ICollection<CompraEntity> Compras { get; set; }
-
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.1.0 (NJsonSchema v11.5.1.0 (Newtonsoft.Json v13.0.0.0))")]
@@ -1203,46 +1170,18 @@ namespace Frontend.Client
 
         [Newtonsoft.Json.JsonProperty("fecha", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         [Newtonsoft.Json.JsonConverter(typeof(DateFormatConverter))]
-        public System.DateTimeOffset Fecha { get; set; }
+        public System.DateTime Fecha { get; set; }
 
         [Newtonsoft.Json.JsonProperty("total", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string Total { get; set; }
-
-        [Newtonsoft.Json.JsonProperty("cliente", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public ClienteEntity Cliente { get; set; }
+        public int Total { get; set; }
 
         [Newtonsoft.Json.JsonProperty("detalles", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.Collections.Generic.ICollection<DetalleEntity> Detalles { get; set; }
+        public System.Collections.Generic.ICollection<DetalleDTO> Detalles { get; set; }
 
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.1.0 (NJsonSchema v11.5.1.0 (Newtonsoft.Json v13.0.0.0))")]
-    public partial class CompraEntity
-    {
-
-        [Newtonsoft.Json.JsonProperty("idCompra", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public int IdCompra { get; set; }
-
-        [Newtonsoft.Json.JsonProperty("clienteId", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public int ClienteId { get; set; }
-
-        [Newtonsoft.Json.JsonProperty("fecha", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        [Newtonsoft.Json.JsonConverter(typeof(DateFormatConverter))]
-        public System.DateTimeOffset Fecha { get; set; }
-
-        [Newtonsoft.Json.JsonProperty("total", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public string Total { get; set; }
-
-        [Newtonsoft.Json.JsonProperty("cliente", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public ClienteEntity Cliente { get; set; }
-
-        [Newtonsoft.Json.JsonProperty("detalles", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.Collections.Generic.ICollection<DetalleEntity> Detalles { get; set; }
-
-    }
-
-    [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.1.0 (NJsonSchema v11.5.1.0 (Newtonsoft.Json v13.0.0.0))")]
-    public partial class DetalleEntity
+    public partial class DetalleDTO
     {
 
         [Newtonsoft.Json.JsonProperty("idDetalle", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
@@ -1253,6 +1192,9 @@ namespace Frontend.Client
 
         [Newtonsoft.Json.JsonProperty("productoId", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public int ProductoId { get; set; }
+
+        [Newtonsoft.Json.JsonProperty("producto", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public ProductoDTO? Producto { get; set; }
 
         [Newtonsoft.Json.JsonProperty("precioUnitario", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public int PrecioUnitario { get; set; }

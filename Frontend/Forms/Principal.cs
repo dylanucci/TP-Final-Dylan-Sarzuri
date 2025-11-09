@@ -20,10 +20,15 @@ namespace Frontend
 
         private void btnCliente_Click(object sender, EventArgs e)
         {
-            var clienteUI = _serviceProvider.GetRequiredService<ClienteUI>();
+
+            var LoginOrRegisterUI = this._serviceProvider.GetRequiredService<LoginOrRegisterUI>();
+            LoginOrRegisterUI.Show();
             this.Hide();
-            clienteUI.Show();
-            
+
+            //var OptionUI = _serviceProvider.GetRequiredService<LoginOrRegisterUI>();
+            //this.Hide();
+            //OptionUI.Show();
+
         }
 
         private void button2_Click(object sender, EventArgs e)

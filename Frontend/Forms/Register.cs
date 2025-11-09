@@ -15,9 +15,9 @@ namespace Frontend
 {
     public partial class Register : Form
     {
-        private readonly IApiClient _client;
+        private readonly ApiClient _client;
         private readonly IServiceProvider _serviceProvider;
-        public Register(IApiClient client, IServiceProvider serviceProvider)
+        public Register(ApiClient client, IServiceProvider serviceProvider)
         {
             _client = client;
             InitializeComponent();
@@ -46,11 +46,10 @@ namespace Frontend
             {
                 var clienteCreated = await _client.ClientesPOSTAsync(clienteDTO);
 
-                MessageBox.Show($"Registro Exitoso\n{clienteCreated.GetInfo}");
-
-                this.Close();
-
+                MessageBox.Show($"Registro Exitoso\nId: {clienteCreated.IdCliente}\nNombre: {clienteCreated.Nombre}");
+                clienteUI.SetCliente(clienteDTO);
                 clienteUI.Show();
+                this.Close();
             }
             catch (Exception ex)
             {

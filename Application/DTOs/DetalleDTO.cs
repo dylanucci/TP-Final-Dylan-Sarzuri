@@ -13,11 +13,10 @@ namespace Application.DTOs
         public int CompraId { get; set; }
 
         public int ProductoId { get; set; }
-
         public int PrecioUnitario { get; set; }
 
         public int Cantidad { get; set; }
 
-        public int SubTotal => PrecioUnitario * Cantidad;
+        public int SubTotal { get; set; }
     }
 }

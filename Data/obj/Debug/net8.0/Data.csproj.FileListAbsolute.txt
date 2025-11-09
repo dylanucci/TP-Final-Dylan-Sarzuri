@@ -27,3 +27,4 @@ D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Data\obj\D
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Data\obj\Debug\net8.0\Data.pdb
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Data\obj\Debug\net8.0\ref\Data.dll
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Data\obj\Debug\net8.0\Data.sourcelink.json

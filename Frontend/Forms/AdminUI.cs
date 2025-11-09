@@ -16,5 +16,10 @@ namespace Frontend.Forms
         {
             InitializeComponent();
         }
+
+        private void AdminUI_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

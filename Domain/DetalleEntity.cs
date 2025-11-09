@@ -18,6 +18,6 @@ namespace Domain
 
         public int Cantidad { get; set; }
 
-        public int SubTotal => PrecioUnitario * Cantidad;
+        public int SubTotal { get; set; }
     }
 }

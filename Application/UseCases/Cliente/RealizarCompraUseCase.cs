@@ -26,5 +26,9 @@ namespace Application.UseCases.Cliente
             var compraEntity = await _repository.CreateAsync(_mapper.Map<CompraEntity>(compra));
             return _mapper.Map<CompraDTO>(compraEntity);
         }
+        public async Task InsertarDetalles(IEnumerable<DetalleDTO> detalles)
+        {
+
+        } 
     }
 }

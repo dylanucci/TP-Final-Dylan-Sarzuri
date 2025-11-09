@@ -13,12 +13,10 @@ namespace Application.DTOs
 
         public int ClienteId { get; set; }
 
-        public DateOnly Fecha { get; set; }
+        public DateTime Fecha { get; set; }
 
-        public string? Total { get; set; }
+        public int? Total { get; set; }
 
-        public virtual ClienteEntity Cliente { get; set; } = null!;
-
-        public virtual ICollection<DetalleEntity> Detalles { get; set; } = new List<DetalleEntity>();
+        public virtual ICollection<DetalleDTO> Detalles { get; set; } = new List<DetalleDTO>();
     }
 }

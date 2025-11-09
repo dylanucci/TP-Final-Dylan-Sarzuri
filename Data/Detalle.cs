@@ -20,6 +20,4 @@ public partial class Detalle
     public int SubTotal { get; set; }
 
     public virtual Compra Compra { get; set; } = null!;
-
-    public virtual Producto Producto { get; set; } = null!;
 }

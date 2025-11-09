@@ -19,6 +19,8 @@ namespace Infraestructure.Mappers
             CreateMap<CompraEntity, Compra>();
             CreateMap<Compra, CompraEntity>();
             CreateMap<ProductoEntity, Producto>();
+            CreateMap<DetalleEntity, Detalle>();
+            CreateMap<Detalle, DetalleEntity>();
             CreateMap<Producto, ProductoEntity>();
         }    
     }

@@ -29,7 +29,7 @@ namespace Frontend
 
         public static void AddServices(IServiceCollection Services)
         {
-            string backendUrl = "http://localhost:7079";
+            string backendUrl = "http://localhost:5033";
 
             Services.AddHttpClient("Backend", http =>
             {
@@ -42,12 +42,15 @@ namespace Frontend
                 return new ApiClient(http);
             });
 
-            
+
 
             Services.AddScoped<Principal>()
                 .AddScoped<Register>()
                 .AddScoped<ClienteUI>()
-                .AddScoped<AdminUI>();
+                .AddScoped<AdminUI>()
+                .AddScoped<LoginOrRegisterUI>()
+                .AddScoped<Login>()
+                .AddScoped<ClienteCompraUI>();
 
         }
 

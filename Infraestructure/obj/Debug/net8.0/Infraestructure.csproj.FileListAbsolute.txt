@@ -23,3 +23,4 @@ D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Infraestru
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Infraestructure\obj\Debug\net8.0\refint\Infraestructure.dll
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.pdb
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Infraestructure\obj\Debug\net8.0\ref\Infraestructure.dll
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.sourcelink.json

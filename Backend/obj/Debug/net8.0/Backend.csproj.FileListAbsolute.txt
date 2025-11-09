@@ -100,10 +100,10 @@ D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Backend\ob
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Backend\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Backend\obj\Debug\net8.0\staticwebassets.development.json
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Backend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Backend\obj\Debug\net8.0\Backend.csproj.Up2Date
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Backend\obj\Debug\net8.0\Backend.dll
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Backend\obj\Debug\net8.0\refint\Backend.dll
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Backend\obj\Debug\net8.0\Backend.pdb
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Backend\obj\Debug\net8.0\Backend.genruntimeconfig.cache
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Backend\obj\Debug\net8.0\ref\Backend.dll
+D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Backend\obj\Debug\net8.0\Backend.sourcelink.json

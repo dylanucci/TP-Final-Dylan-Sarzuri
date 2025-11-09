@@ -516,43 +516,6 @@
         },
         "additionalProperties": false
       },
-      "ClienteEntity": {
-        "type": "object",
-        "properties": {
-          "idCliente": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "nombre": {
-            "type": "string",
-            "nullable": true
-          },
-          "apellido": {
-            "type": "string",
-            "nullable": true
-          },
-          "telefono": {
-            "type": "string",
-            "nullable": true
-          },
-          "email": {
-            "type": "string",
-            "nullable": true
-          },
-          "contraseña": {
-            "type": "string",
-            "nullable": true
-          },
-          "compras": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/CompraEntity"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "CompraDTO": {
         "type": "object",
         "properties": {
@@ -573,51 +536,19 @@
             "nullable": true
           },
           "cliente": {
-            "$ref": "#/components/schemas/ClienteEntity"
+            "$ref": "#/components/schemas/ClienteDTO"
           },
           "detalles": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/DetalleEntity"
+              "$ref": "#/components/schemas/DetalleDTO"
             },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "CompraEntity": {
-        "type": "object",
-        "properties": {
-          "idCompra": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "clienteId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "fecha": {
-            "type": "string",
-            "format": "date"
-          },
-          "total": {
-            "type": "string",
-            "nullable": true
-          },
-          "cliente": {
-            "$ref": "#/components/schemas/ClienteEntity"
-          },
-          "detalles": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/DetalleEntity"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "DetalleEntity": {
+      "DetalleDTO": {
         "type": "object",
         "properties": {
           "idDetalle": {
@@ -632,6 +563,9 @@
             "type": "integer",
             "format": "int32"
           },
+          "producto": {
+            "$ref": "#/components/schemas/ProductoDTO"
+          },
           "precioUnitario": {
             "type": "integer",
             "format": "int32"
@@ -642,8 +576,7 @@
           },
           "subTotal": {
             "type": "integer",
-            "format": "int32",
-            "readOnly": true
+            "format": "int32"
           }
         },
         "additionalProperties": false

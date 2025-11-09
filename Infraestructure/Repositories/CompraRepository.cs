@@ -50,5 +50,9 @@ namespace Infraestructure.Repositories
             var compraEntity = _mapper.Map<CompraEntity>(compraModel);
             return compraEntity;
         }
+        public async Task InsertarDetalles(IEnumerable<DetalleEntity> detalleEntities) 
+        {
+
+        } 
     }
 }
