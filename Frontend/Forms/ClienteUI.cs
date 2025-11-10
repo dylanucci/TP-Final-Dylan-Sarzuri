@@ -17,7 +17,7 @@ namespace Frontend.Forms
     public partial class ClienteUI : Form
     {
 
-        private ClienteDTO _clienteDTO;
+        private ClienteDTO _clienteDTO = new ClienteDTO();
         private readonly IServiceProvider _serviceProvider;
         private readonly ApiClient _client;
         private List<PanelProducto> paneles = new List<PanelProducto>();
@@ -81,6 +81,10 @@ namespace Frontend.Forms
 
         private void btnConfiguracion_Click(object sender, EventArgs e)
         {
+            var configUI = _serviceProvider.GetRequiredService<ConfigCliente>();
+            configUI.SetCliente(this._clienteDTO);
+            configUI.Show();
+            this.Hide();
 
         }
 
@@ -109,7 +113,9 @@ namespace Frontend.Forms
             foreach(var i in paneles)
             {
                 i.counter = 0;
+                i.Verify();
             }
+            btnRealizar.Enabled = false;
         }
     }
 }

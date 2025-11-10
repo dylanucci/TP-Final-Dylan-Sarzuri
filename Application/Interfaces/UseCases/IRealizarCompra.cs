@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.Interfaces.UseCases
 {
-    public interface IRealizarCompra
+    public interface IRealizarCompraUseCase
     {
         Task<CompraDTO> RealizarCompra(CompraDTO compra);
     }

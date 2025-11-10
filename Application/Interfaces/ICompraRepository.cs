@@ -10,6 +10,7 @@ namespace Application.Interfaces
 {
     public interface ICompraRepository : IRead<CompraEntity>, ICreate<CompraEntity> 
     {
-        Task<IEnumerable<CompraEntity>?> FiltrarComprasAsync(DateOnly date1, DateOnly date2);
+        Task<IEnumerable<CompraEntity>?> FiltrarComprasAsync(DateTime date1, DateTime date2);
+        Task<IEnumerable<CompraEntity>?> GetByClienteIdAsync(int IdCliente);
     }
 }

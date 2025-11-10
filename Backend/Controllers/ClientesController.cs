@@ -1,9 +1,10 @@
 ﻿using Application.DTOs;
-using Application.UseCases.Cliente;
-using Microsoft.AspNetCore.Mvc;
-using Application.Interfaces.UseCases;
 using Application.Interfaces.CRUD;
+using Application.Interfaces.UseCases;
+using Application.UseCases.Cliente;
 using Backend.Utilidades;
+using Microsoft.AspNetCore.Mvc;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Backend.Controllers
 {
@@ -16,16 +17,16 @@ namespace Backend.Controllers
         private readonly IUpdate<ClienteDTO> _updateUseCase;
         private readonly IDelete<ClienteDTO> _deleteUseCase;
         private readonly ILoginUseCase _loginUseCase;
-        private readonly IRealizarCompra _compraUseCase;
+        private readonly IRealizarCompraUseCase _realizarCompraUseCase;
 
-        public ClientesController(IRead<ClienteDTO> readUseCase,ICreate<ClienteDTO> createUseCase,IUpdate<ClienteDTO> updateUseCase,IDelete<ClienteDTO> deleteUseCase,ILoginUseCase loginUseCase,IRealizarCompra compraUseCase)
+        public ClientesController(IRead<ClienteDTO> readUseCase,ICreate<ClienteDTO> createUseCase,IUpdate<ClienteDTO> updateUseCase,IDelete<ClienteDTO> deleteUseCase,ILoginUseCase loginUseCase,IRealizarCompraUseCase compraUseCase)
         {
             _readUseCase = readUseCase;
             _createUseCase = createUseCase;
             _updateUseCase = updateUseCase;
             _deleteUseCase = deleteUseCase;
             _loginUseCase = loginUseCase;
-            _compraUseCase = compraUseCase;
+            _realizarCompraUseCase = compraUseCase;
         }
 
         
@@ -73,7 +74,7 @@ namespace Backend.Controllers
         [ActionName("RealizarCompra")]
         public async Task<ActionResult<CompraDTO>> MakePurchase([FromBody] CompraDTO compraDTO)
         {
-            var compraDTOCreated = await _compraUseCase.RealizarCompra(compraDTO);
+            var compraDTOCreated = await _realizarCompraUseCase.RealizarCompra(compraDTO);
             return Ok(compraDTOCreated);
         }
 
@@ -84,6 +85,5 @@ namespace Backend.Controllers
             var clienteDTO = await _loginUseCase.Login(loginRequest.Email, loginRequest.Password);
             return Ok(clienteDTO);
         }
-
     }
 }

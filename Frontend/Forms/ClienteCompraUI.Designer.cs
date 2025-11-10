@@ -32,6 +32,7 @@
             label6 = new Label();
             label7 = new Label();
             lblTotal = new Label();
+            btnVolver = new Button();
             SuspendLayout();
             // 
             // btnConfirmar
@@ -43,7 +44,7 @@
             btnConfirmar.TabIndex = 1;
             btnConfirmar.Text = "Confirmar";
             btnConfirmar.UseVisualStyleBackColor = true;
-            btnConfirmar.Click += this.btnConfirmar_Click;
+            btnConfirmar.Click += btnConfirmar_Click;
             // 
             // label6
             // 
@@ -75,17 +76,30 @@
             lblTotal.TabIndex = 5;
             lblTotal.Text = "2600$";
             // 
+            // btnVolver
+            // 
+            btnVolver.Font = new Font("Sitka Text", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnVolver.Location = new Point(12, 369);
+            btnVolver.Name = "btnVolver";
+            btnVolver.Size = new Size(157, 42);
+            btnVolver.TabIndex = 6;
+            btnVolver.Text = "Volver";
+            btnVolver.UseVisualStyleBackColor = true;
+            btnVolver.Click += btnVolver_Click;
+            // 
             // ClienteCompraUI
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             ClientSize = new Size(844, 423);
+            Controls.Add(btnVolver);
             Controls.Add(lblTotal);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(btnConfirmar);
             Name = "ClienteCompraUI";
-            Text = "ClienteCompraUI";
+            Text = "D";
             Load += ClienteCompraUI_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -96,5 +110,6 @@
         private Label label6;
         private Label label7;
         private Label lblTotal;
+        private Button btnVolver;
     }
 }

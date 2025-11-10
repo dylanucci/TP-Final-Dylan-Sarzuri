@@ -9,6 +9,6 @@ namespace Application.Interfaces.UseCases
 {
     public interface IFiltrarComprasUseCase
     {
-        Task<IEnumerable<CompraDTO>?> FiltrarComprasAsync(DateOnly date1, DateOnly date2);
+        Task<IEnumerable<CompraDTO>?> FiltrarComprasAsync(DateTime date1, DateTime date2);
     }
 }

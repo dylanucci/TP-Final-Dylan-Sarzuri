@@ -32,9 +32,13 @@ namespace Infraestructure.Repositories
             return compraEntityCreated;
         }
 
-        public Task<IEnumerable<CompraEntity>> FiltrarComprasAsync(DateOnly date1, DateOnly date2)
+        public async Task<IEnumerable<CompraEntity>> FiltrarComprasAsync(DateTime date1, DateTime date2)
         {
-            throw new NotImplementedException();
+            var comprasFiltradas = await _context.Compras
+                .Where(c => c.Fecha >= date1 && c.Fecha <= date2)
+                .ToListAsync();
+            return _mapper.Map<IEnumerable<CompraEntity>>(comprasFiltradas);
+
         }
 
         public async Task<IEnumerable<CompraEntity>> GetAllAsync()
@@ -44,15 +48,17 @@ namespace Infraestructure.Repositories
             return compraEntities;
         }
 
+        public async Task<IEnumerable<CompraEntity>?> GetByClienteIdAsync(int IdCliente)
+        {
+            var compraModels = _context.Compras.Where(p => p.ClienteId == IdCliente);
+            return _mapper.Map<IEnumerable<CompraEntity>>(compraModels);
+        }
+
         public async Task<CompraEntity?> GetByIdAsync(int Id)
         {
             var compraModel = await _context.Compras.FirstOrDefaultAsync(c=> c.IdCompra == Id);
             var compraEntity = _mapper.Map<CompraEntity>(compraModel);
             return compraEntity;
         }
-        public async Task InsertarDetalles(IEnumerable<DetalleEntity> detalleEntities) 
-        {
-
-        } 
     }
 }

@@ -27,7 +27,10 @@ namespace Application.Extencions
             Services.AddScoped<IUpdate<ClienteDTO>, ActualizarClienteUseCase>();
             Services.AddScoped<IDelete<ClienteDTO>, EliminarClienteUseCase>();
             Services.AddScoped<ILoginUseCase, LoginUseCase>();
-            Services.AddScoped<IRealizarCompra, RealizarCompraUseCase>();
+            Services.AddScoped<IRealizarCompraUseCase, CompraService>();
+            Services.AddScoped<IComprasByClienteUseCase, CompraService>();
+            Services.AddScoped<IFiltrarComprasUseCase, CompraService>();
+            Services.AddScoped<IRead<CompraDTO>, CompraService>();
 
             Services.AddScoped<IRead<ProductoDTO>, LeerProductoUseCase>();
             Services.AddScoped<ICreate<ProductoDTO>, CrearProductoUseCase>();

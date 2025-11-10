@@ -35,6 +35,10 @@ namespace Frontend.Clases
             panel.Controls.Add(lblName);
             panel.Controls.Add(lblPrice);
 
+            lblName.AutoSize = true;
+            lblPrice.AutoSize = true;
+            lblCounter.AutoSize = true;
+
             ConfigLabels();
             AddFunctions();
             ConfigFirstVisual();
@@ -86,7 +90,7 @@ namespace Frontend.Clases
             lblCounter.Text = counter.ToString(); 
         }
 
-        private void Verify()
+        public void Verify()
         {
             if (counter == 0)
             {

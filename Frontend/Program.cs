@@ -44,13 +44,19 @@ namespace Frontend
 
 
 
-            Services.AddScoped<Principal>()
+            Services.AddSingleton<Principal>()
                 .AddScoped<Register>()
-                .AddScoped<ClienteUI>()
-                .AddScoped<AdminUI>()
-                .AddScoped<LoginOrRegisterUI>()
-                .AddScoped<Login>()
-                .AddScoped<ClienteCompraUI>();
+                .AddTransient<ClienteUI>()
+                .AddTransient<AdminUI>()
+                .AddTransient<LoginOrRegisterUI>()
+                .AddTransient<Login>()
+                .AddTransient<LoginOrRegisterUI>()
+                .AddTransient<ClienteCompraUI>()
+                .AddTransient<ConfigCliente>()
+                .AddTransient<ClientesTable>()
+                .AddTransient<ProductosTable>()
+                .AddTransient<ComprasUI>()
+                .AddTransient<AdminComprasUI>();
 
         }
 

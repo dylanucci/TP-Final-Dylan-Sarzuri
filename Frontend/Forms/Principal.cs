@@ -25,10 +25,6 @@ namespace Frontend
             LoginOrRegisterUI.Show();
             this.Hide();
 
-            //var OptionUI = _serviceProvider.GetRequiredService<LoginOrRegisterUI>();
-            //this.Hide();
-            //OptionUI.Show();
-
         }
 
         private void button2_Click(object sender, EventArgs e)

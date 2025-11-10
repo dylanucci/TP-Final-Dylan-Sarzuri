@@ -3,64 +3,60 @@
   "WorkspaceRootPath": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6949353-7E0A-475B-9F91-E673D950A5D5}|Domain\\Domain.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\domain\\detalleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6949353-7E0A-475B-9F91-E673D950A5D5}|Domain\\Domain.csproj|solutionrelative:domain\\detalleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\productostable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\productostable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DF0F9EE-D525-4407-BCEE-F0465026286F}|Data\\Data.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\data\\detalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF0F9EE-D525-4407-BCEE-F0465026286F}|Data\\Data.csproj|solutionrelative:data\\detalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\productostable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\productostable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DF0F9EE-D525-4407-BCEE-F0465026286F}|Data\\Data.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\data\\gestionventascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF0F9EE-D525-4407-BCEE-F0465026286F}|Data\\Data.csproj|solutionrelative:data\\gestionventascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19E0FA1F-1298-48B6-A4DB-AF129FA09D95}|Application\\Application.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\application\\dtos\\detalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19E0FA1F-1298-48B6-A4DB-AF129FA09D95}|Application\\Application.csproj|solutionrelative:application\\dtos\\detalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\admincomprasui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\admincomprasui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19E0FA1F-1298-48B6-A4DB-AF129FA09D95}|Application\\Application.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\application\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19E0FA1F-1298-48B6-A4DB-AF129FA09D95}|Application\\Application.csproj|solutionrelative:application\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\admincomprasui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\admincomprasui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\comprasui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\comprasui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\clientecompraui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\clientecompraui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\comprasui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\comprasui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\clientecompraui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\clientecompraui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\adminui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\adminui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\clienteui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\clienteui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\clases\\panelproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\clases\\panelproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\adminui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\adminui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\clienteui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\clienteui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19E0FA1F-1298-48B6-A4DB-AF129FA09D95}|Application\\Application.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\application\\dtos\\compradto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19E0FA1F-1298-48B6-A4DB-AF129FA09D95}|Application\\Application.csproj|solutionrelative:application\\dtos\\compradto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\clientestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\clientestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DF0F9EE-D525-4407-BCEE-F0465026286F}|Data\\Data.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\data\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF0F9EE-D525-4407-BCEE-F0465026286F}|Data\\Data.csproj|solutionrelative:data\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\clientestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\clientestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DF0F9EE-D525-4407-BCEE-F0465026286F}|Data\\Data.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\data\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF0F9EE-D525-4407-BCEE-F0465026286F}|Data\\Data.csproj|solutionrelative:data\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\clientecompraui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\clientecompraui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6949353-7E0A-475B-9F91-E673D950A5D5}|Domain\\Domain.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\domain\\compraentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6949353-7E0A-475B-9F91-E673D950A5D5}|Domain\\Domain.csproj|solutionrelative:domain\\compraentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|d:\\trabajos laboratorio\\tp final dylan sarzuri\\tp final dylan sarzuri\\frontend\\forms\\clientecompraui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A417DCD-456A-4E11-B0DF-AD9E50E858CC}|Frontend\\Frontend.csproj|solutionrelative:frontend\\forms\\clientecompraui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,199 +66,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DetalleEntity.cs",
-              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Domain\\DetalleEntity.cs",
-              "RelativeDocumentMoniker": "Domain\\DetalleEntity.cs",
-              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Domain\\DetalleEntity.cs",
-              "RelativeToolTip": "Domain\\DetalleEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Register.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\Register.cs",
+              "RelativeDocumentMoniker": "Frontend\\Forms\\Register.cs",
+              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\Register.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Frontend\\Forms\\Register.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T20:21:26.014Z",
+              "WhenOpened": "2025-11-10T04:58:04.101Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductosTable.cs",
+              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ProductosTable.cs",
+              "RelativeDocumentMoniker": "Frontend\\Forms\\ProductosTable.cs",
+              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ProductosTable.cs",
+              "RelativeToolTip": "Frontend\\Forms\\ProductosTable.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwD0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:57:26.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Detalle.cs",
-              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Data\\Detalle.cs",
-              "RelativeDocumentMoniker": "Data\\Detalle.cs",
-              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Data\\Detalle.cs",
-              "RelativeToolTip": "Data\\Detalle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "ProductosTable.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ProductosTable.cs",
+              "RelativeDocumentMoniker": "Frontend\\Forms\\ProductosTable.cs",
+              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ProductosTable.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Frontend\\Forms\\ProductosTable.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T20:21:00.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GestionventasContext.cs",
-              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Data\\GestionventasContext.cs",
-              "RelativeDocumentMoniker": "Data\\GestionventasContext.cs",
-              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Data\\GestionventasContext.cs",
-              "RelativeToolTip": "Data\\GestionventasContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T20:21:00.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DetalleDTO.cs",
-              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Application\\DTOs\\DetalleDTO.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\DetalleDTO.cs",
-              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Application\\DTOs\\DetalleDTO.cs",
-              "RelativeToolTip": "Application\\DTOs\\DetalleDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T20:20:37.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductoDTO.cs",
-              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Application\\DTOs\\ProductoDTO.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\ProductoDTO.cs",
-              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Application\\DTOs\\ProductoDTO.cs",
-              "RelativeToolTip": "Application\\DTOs\\ProductoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T20:20:37.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T04:57:18.367Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "PanelProducto.cs",
-              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Clases\\PanelProducto.cs",
-              "RelativeDocumentMoniker": "Frontend\\Clases\\PanelProducto.cs",
-              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Clases\\PanelProducto.cs",
-              "RelativeToolTip": "Frontend\\Clases\\PanelProducto.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T20:14:37.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ClienteUI.cs",
-              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ClienteUI.cs",
-              "RelativeDocumentMoniker": "Frontend\\Forms\\ClienteUI.cs",
-              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ClienteUI.cs",
-              "RelativeToolTip": "Frontend\\Forms\\ClienteUI.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAD4vyIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T20:14:15.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "ClienteUI.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ClienteUI.cs",
               "RelativeDocumentMoniker": "Frontend\\Forms\\ClienteUI.cs",
               "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ClienteUI.cs [Dise\u00F1o]",
               "RelativeToolTip": "Frontend\\Forms\\ClienteUI.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T20:14:12.605Z",
+              "WhenOpened": "2025-11-10T04:56:53.349Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CompraEntity.cs",
-              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Domain\\CompraEntity.cs",
-              "RelativeDocumentMoniker": "Domain\\CompraEntity.cs",
-              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Domain\\CompraEntity.cs",
-              "RelativeToolTip": "Domain\\CompraEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "ClientesTable.cs",
+              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ClientesTable.cs",
+              "RelativeDocumentMoniker": "Frontend\\Forms\\ClientesTable.cs",
+              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ClientesTable.cs",
+              "RelativeToolTip": "Frontend\\Forms\\ClientesTable.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowEEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T20:03:57.748Z",
+              "WhenOpened": "2025-11-10T04:54:17.827Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClientesTable.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ClientesTable.cs",
+              "RelativeDocumentMoniker": "Frontend\\Forms\\ClientesTable.cs",
+              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ClientesTable.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Frontend\\Forms\\ClientesTable.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:54:14.242Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminComprasUI.cs",
+              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\AdminComprasUI.cs",
+              "RelativeDocumentMoniker": "Frontend\\Forms\\AdminComprasUI.cs",
+              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\AdminComprasUI.cs",
+              "RelativeToolTip": "Frontend\\Forms\\AdminComprasUI.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:45:08.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminComprasUI.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\AdminComprasUI.cs",
+              "RelativeDocumentMoniker": "Frontend\\Forms\\AdminComprasUI.cs",
+              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\AdminComprasUI.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Frontend\\Forms\\AdminComprasUI.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:40:05.898Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminUI.cs",
+              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\AdminUI.cs",
+              "RelativeDocumentMoniker": "Frontend\\Forms\\AdminUI.cs",
+              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\AdminUI.cs",
+              "RelativeToolTip": "Frontend\\Forms\\AdminUI.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA2wCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:40:03.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminUI.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\AdminUI.cs",
+              "RelativeDocumentMoniker": "Frontend\\Forms\\AdminUI.cs",
+              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\AdminUI.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Frontend\\Forms\\AdminUI.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:40:01.866Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Data\\Cliente.cs",
-              "RelativeDocumentMoniker": "Data\\Cliente.cs",
-              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Data\\Cliente.cs",
-              "RelativeToolTip": "Data\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T20:03:29.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Compra.cs",
-              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Data\\Compra.cs",
-              "RelativeDocumentMoniker": "Data\\Compra.cs",
-              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Data\\Compra.cs",
-              "RelativeToolTip": "Data\\Compra.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T19:52:30.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApiClient.cs",
-              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\ApiClient.cs",
-              "RelativeDocumentMoniker": "Frontend\\ApiClient.cs",
-              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\ApiClient.cs",
-              "RelativeToolTip": "Frontend\\ApiClient.cs",
-              "ViewState": "AgIAAJMEAAAAAAAAAAAnwKwEAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T19:45:28.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CompraDTO.cs",
-              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Application\\DTOs\\CompraDTO.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\CompraDTO.cs",
-              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Application\\DTOs\\CompraDTO.cs",
-              "RelativeToolTip": "Application\\DTOs\\CompraDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T19:44:20.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "ClienteCompraUI.cs",
               "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ClienteCompraUI.cs",
               "RelativeDocumentMoniker": "Frontend\\Forms\\ClienteCompraUI.cs",
               "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ClienteCompraUI.cs",
               "RelativeToolTip": "Frontend\\Forms\\ClienteCompraUI.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAawDQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAD4vzcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T19:43:58.398Z",
+              "WhenOpened": "2025-11-10T04:36:12.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ClienteCompraUI.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ClienteCompraUI.cs",
               "RelativeDocumentMoniker": "Frontend\\Forms\\ClienteCompraUI.cs",
               "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ClienteCompraUI.cs [Dise\u00F1o]",
               "RelativeToolTip": "Frontend\\Forms\\ClienteCompraUI.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T19:43:55.598Z",
+              "WhenOpened": "2025-11-10T04:36:11.817Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ComprasUI.cs",
+              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ComprasUI.cs",
+              "RelativeDocumentMoniker": "Frontend\\Forms\\ComprasUI.cs",
+              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ComprasUI.cs",
+              "RelativeToolTip": "Frontend\\Forms\\ComprasUI.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAqwEoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:36:07.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComprasUI.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ComprasUI.cs",
+              "RelativeDocumentMoniker": "Frontend\\Forms\\ComprasUI.cs",
+              "ToolTip": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Frontend\\Forms\\ComprasUI.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Frontend\\Forms\\ComprasUI.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:36:04.566Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

@@ -49,7 +49,7 @@ namespace Frontend.Forms
         {
             var detalles = new List<DetalleDTO>();
 
-            foreach(DetalleDTO i in ClienteUI.Detalles)
+            foreach (DetalleDTO i in ClienteUI.Detalles)
             {
                 detalles.Add(i);
             }
@@ -67,8 +67,9 @@ namespace Frontend.Forms
             {
                 await _client.MakePurchaseAsync(compraDTO);
                 MessageBox.Show("Compra Exitosa");
-                _clienteUI.Reset();
-                _clienteUI.Show();
+                var clienteUI = _serviceProvider.GetRequiredService<ClienteUI>();
+                clienteUI.SetCliente(_clienteDTO);
+                clienteUI.Show();
                 this.Close();
             }
             catch (Exception ex)
@@ -81,6 +82,15 @@ namespace Frontend.Forms
         {
             _clienteDTO = cliente;
             _clienteUI = clienteUI;
+
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            var clienteUI = _serviceProvider.GetRequiredService<ClienteUI>();
+            clienteUI.SetCliente(_clienteDTO);
+            clienteUI.Show();
+            this.Close();
 
         }
     }
