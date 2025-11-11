@@ -3006,24 +3006,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dylan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\PC-1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Infraestructure\\Infraestructure.csproj",
+      "projectUniqueName": "C:\\Users\\PC-1\\Desktop\\TP-Final-Dylan-Sarzuri\\Infraestructure\\Infraestructure.csproj",
       "projectName": "Infraestructure",
-      "projectPath": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Infraestructure\\Infraestructure.csproj",
-      "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
-      "outputPath": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Infraestructure\\obj\\",
+      "projectPath": "C:\\Users\\PC-1\\Desktop\\TP-Final-Dylan-Sarzuri\\Infraestructure\\Infraestructure.csproj",
+      "packagesPath": "C:\\Users\\PC-1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC-1\\Desktop\\TP-Final-Dylan-Sarzuri\\Infraestructure\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\PC-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3031,20 +3026,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Application\\Application.csproj": {
-              "projectPath": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Application\\Application.csproj"
+            "C:\\Users\\PC-1\\Desktop\\TP-Final-Dylan-Sarzuri\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\PC-1\\Desktop\\TP-Final-Dylan-Sarzuri\\Application\\Application.csproj"
             },
-            "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Data\\Data.csproj": {
-              "projectPath": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Data\\Data.csproj"
+            "C:\\Users\\PC-1\\Desktop\\TP-Final-Dylan-Sarzuri\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\PC-1\\Desktop\\TP-Final-Dylan-Sarzuri\\Data\\Data.csproj"
             },
-            "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Trabajos Laboratorio\\TP Final Dylan Sarzuri\\TP Final Dylan Sarzuri\\Domain\\Domain.csproj"
+            "C:\\Users\\PC-1\\Desktop\\TP-Final-Dylan-Sarzuri\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\PC-1\\Desktop\\TP-Final-Dylan-Sarzuri\\Domain\\Domain.csproj"
             }
           }
         }
@@ -3058,8 +3054,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -3086,7 +3081,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

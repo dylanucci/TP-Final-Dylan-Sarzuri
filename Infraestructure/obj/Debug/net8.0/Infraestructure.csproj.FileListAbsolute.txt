@@ -24,3 +24,23 @@ D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Infraestru
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.pdb
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Infraestructure\obj\Debug\net8.0\ref\Infraestructure.dll
 D:\Trabajos Laboratorio\TP Final Dylan Sarzuri\TP Final Dylan Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.sourcelink.json
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Infraestructure.deps.json
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Infraestructure.dll
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Infraestructure.pdb
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Application.dll
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Data.dll
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Domain.dll
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Application.pdb
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Data.pdb
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.csproj.AssemblyReference.cache
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.AssemblyInfoInputs.cache
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.AssemblyInfo.cs
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.sourcelink.json
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraest.B0D41582.Up2Date
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.dll
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\refint\Infraestructure.dll
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.pdb
+C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\ref\Infraestructure.dll

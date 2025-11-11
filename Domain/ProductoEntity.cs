@@ -10,9 +10,20 @@ namespace Domain
     {
         public int IdProducto { get; set; }
 
-        public string Nombre { get; set; } = null!;
+        private string _nombre;
+        private int _precio;
 
-        public int Precio { get; set; }
+        public string Nombre
+        {
+            get { return _nombre; }
+            set { _nombre = value; }
+        }
+
+        public int Precio
+        {
+            get { return _precio; }
+            set { _precio = value; }
+        }
 
         public int CategoriaId { get; set; }
 

@@ -54,8 +54,6 @@ namespace Infraestructure.Repositories
         {
             var model = await _context.Clientes.FirstOrDefaultAsync(c=> c.IdCliente == Id);
             return _mapper.Map<ClienteEntity>(model);
-            
-
         }
 
         public async Task<ClienteEntity> UpdateAsync(ClienteEntity some)

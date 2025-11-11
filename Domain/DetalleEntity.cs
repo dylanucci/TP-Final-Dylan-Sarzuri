@@ -14,9 +14,30 @@ namespace Domain
 
         public int ProductoId { get; set; }
 
-        public int PrecioUnitario { get; set; }
+        private int _precioUnitario;
+        private int _cantidad;
 
-        public int Cantidad { get; set; }
+        public int PrecioUnitario
+        {
+            get { return _precioUnitario; }
+            set
+            {
+                if (value < 0)
+                    throw new ArgumentException("El precio unitario no puede ser negativo.");
+                _precioUnitario = value;
+            }
+        }
+
+        public int Cantidad
+        {
+            get { return _cantidad; }
+            set
+            {
+                if (value < 0)
+                    throw new ArgumentException("La cantidad no puede ser negativa.");
+                _cantidad = value;
+            }
+        }
 
         public int SubTotal { get; set; }
     }
