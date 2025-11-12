@@ -21,6 +21,9 @@ namespace Application.Mappers
             CreateMap<ProductoDTO, ProductoEntity>();
             CreateMap<DetalleDTO, DetalleEntity>();
             CreateMap<DetalleEntity, DetalleDTO>();
+            CreateMap<CategoriaEntity, CategoriaDTO>();
+            CreateMap<CategoriaDTO, CategoriaEntity>();
+            CreateMap<CategoriaEntity, CategoriaDTO>();
         }
     }
 }

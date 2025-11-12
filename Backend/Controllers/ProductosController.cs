@@ -13,12 +13,14 @@ namespace Backend.Controllers
         private readonly ICreate<ProductoDTO> _createUseCase;
         private readonly IUpdate<ProductoDTO> _updateUseCase;
         private readonly IDelete<ProductoDTO> _deleteUseCase;
-        public ProductosController(IRead<ProductoDTO> readUseCase,ICreate<ProductoDTO> createUseCase,IUpdate<ProductoDTO> updateUseCase,IDelete<ProductoDTO> deleteUseCase)
+        private readonly IRead<CategoriaDTO> _readCategoria;
+        public ProductosController(IRead<ProductoDTO> readUseCase,ICreate<ProductoDTO> createUseCase,IUpdate<ProductoDTO> updateUseCase,IDelete<ProductoDTO> deleteUseCase, IRead<CategoriaDTO> leerCategoria)
         {
             _readUseCase = readUseCase;
             _createUseCase = createUseCase;
             _updateUseCase = updateUseCase;
             _deleteUseCase = deleteUseCase;
+            _readCategoria = leerCategoria; 
         }
 
         [HttpGet("{Id}")]
@@ -58,6 +60,14 @@ namespace Backend.Controllers
         {
             await _deleteUseCase.DeleteAsync(Id);
             return Ok();
+        }
+
+        [HttpGet("Categorias")]
+        [ActionName("GetCategorias")]
+        public async Task<ActionResult<IEnumerable<CategoriaDTO>>> GetCategorias()
+        {
+            var categoriasDTO = await _readCategoria.GetAllAsync();
+            return Ok(categoriasDTO);
         }
     }
 }

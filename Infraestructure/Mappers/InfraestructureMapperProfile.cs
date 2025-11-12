@@ -22,6 +22,7 @@ namespace Infraestructure.Mappers
             CreateMap<DetalleEntity, Detalle>();
             CreateMap<Detalle, DetalleEntity>();
             CreateMap<Producto, ProductoEntity>();
+            CreateMap<Categoria, CategoriaEntity>();
         }    
     }
 }

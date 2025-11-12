@@ -6,6 +6,8 @@ namespace Frontend
 {
     internal static class Program
     {
+
+        //public ProductoDTO Producto { get; set; }
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
@@ -56,7 +58,8 @@ namespace Frontend
                 .AddTransient<ClientesTable>()
                 .AddTransient<ProductosTable>()
                 .AddTransient<ComprasUI>()
-                .AddTransient<AdminComprasUI>();
+                .AddTransient<AdminComprasUI>()
+                .AddTransient<AgregarProductoUI>();
 
         }
 

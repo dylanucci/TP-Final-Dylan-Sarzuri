@@ -30,6 +30,7 @@ namespace Infraestructure.Extencions
             Services.AddScoped<IClienteRepository, ClienteRepository>();
             Services.AddScoped<IProductoRepository, ProductoRepository>();
             Services.AddScoped<ICompraRepository, CompraRepository>();
+            Services.AddScoped<IRead<CategoriaEntity>, CategoriaRepository>();
 
             Services.AddAutoMapper(typeof(InfraestructureMapperProfile));
 

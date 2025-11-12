@@ -31,7 +31,7 @@ namespace Application.Extencions
             Services.AddScoped<IComprasByClienteUseCase, CompraService>();
             Services.AddScoped<IFiltrarComprasUseCase, CompraService>();
             Services.AddScoped<IRead<CompraDTO>, CompraService>();
-
+            Services.AddScoped<IRead<CategoriaDTO>, LeerCategoriaUseCase>();
             Services.AddScoped<IRead<ProductoDTO>, LeerProductoUseCase>();
             Services.AddScoped<ICreate<ProductoDTO>, CrearProductoUseCase>();
             Services.AddScoped<IDelete<ProductoDTO>, EliminarProductoUseCase>();

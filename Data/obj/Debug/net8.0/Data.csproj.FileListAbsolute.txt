@@ -43,3 +43,18 @@ C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Data\obj\Debug\net8.0\refint\Data.d
 C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Data\obj\Debug\net8.0\Data.pdb
 C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
 C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Data\obj\Debug\net8.0\ref\Data.dll
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Data\bin\Debug\net8.0\Data.deps.json
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Data\bin\Debug\net8.0\Data.runtimeconfig.json
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Data\bin\Debug\net8.0\Data.dll
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Data\bin\Debug\net8.0\Data.pdb
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Data\obj\Debug\net8.0\Data.csproj.AssemblyReference.cache
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Data\obj\Debug\net8.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Data\obj\Debug\net8.0\Data.AssemblyInfoInputs.cache
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Data\obj\Debug\net8.0\Data.AssemblyInfo.cs
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Data\obj\Debug\net8.0\Data.csproj.CoreCompileInputs.cache
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Data\obj\Debug\net8.0\Data.sourcelink.json
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Data\obj\Debug\net8.0\Data.dll
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Data\obj\Debug\net8.0\refint\Data.dll
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Data\obj\Debug\net8.0\Data.pdb
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Data\obj\Debug\net8.0\ref\Data.dll

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             dgProductos = new DataGridView();
-            button1 = new Button();
-            button2 = new Button();
             btnVolver = new Button();
+            btnEliminar = new Button();
+            btnAgregar = new Button();
             ((System.ComponentModel.ISupportInitialize)dgProductos).BeginInit();
             SuspendLayout();
             // 
@@ -42,24 +42,6 @@
             dgProductos.Name = "dgProductos";
             dgProductos.Size = new Size(371, 254);
             dgProductos.TabIndex = 1;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(522, 334);
-            button1.Name = "button1";
-            button1.Size = new Size(110, 23);
-            button1.TabIndex = 2;
-            button1.Text = "Eliminar por Id";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(189, 314);
-            button2.Name = "button2";
-            button2.Size = new Size(146, 23);
-            button2.TabIndex = 3;
-            button2.Text = "Agregar Productos";
-            button2.UseVisualStyleBackColor = true;
             // 
             // btnVolver
             // 
@@ -72,14 +54,36 @@
             btnVolver.UseVisualStyleBackColor = true;
             btnVolver.Click += btnVolver_Click;
             // 
+            // btnEliminar
+            // 
+            btnEliminar.Font = new Font("Sitka Text", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnEliminar.Location = new Point(189, 282);
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.Size = new Size(130, 64);
+            btnEliminar.TabIndex = 8;
+            btnEliminar.Text = "Eliminar por Id";
+            btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
+            // 
+            // btnAgregar
+            // 
+            btnAgregar.Font = new Font("Sitka Text", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnAgregar.Location = new Point(430, 282);
+            btnAgregar.Name = "btnAgregar";
+            btnAgregar.Size = new Size(130, 64);
+            btnAgregar.TabIndex = 9;
+            btnAgregar.Text = "Agregar Producto";
+            btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
+            // 
             // ProductosTable
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(790, 454);
+            Controls.Add(btnAgregar);
+            Controls.Add(btnEliminar);
             Controls.Add(btnVolver);
-            Controls.Add(button2);
-            Controls.Add(button1);
             Controls.Add(dgProductos);
             Name = "ProductosTable";
             Text = "ProductosTable";
@@ -91,8 +95,8 @@
         #endregion
 
         private DataGridView dgProductos;
-        private Button button1;
-        private Button button2;
         private Button btnVolver;
+        private Button btnEliminar;
+        private Button btnAgregar;
     }
 }

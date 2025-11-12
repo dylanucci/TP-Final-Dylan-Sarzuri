@@ -44,3 +44,23 @@ C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\In
 C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\refint\Infraestructure.dll
 C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.pdb
 C:\Users\PC-1\Desktop\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\ref\Infraestructure.dll
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Infraestructure.deps.json
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Infraestructure.dll
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Infraestructure.pdb
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Application.dll
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Data.dll
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Domain.dll
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Application.pdb
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Data.pdb
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\bin\Debug\net8.0\Domain.pdb
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.csproj.AssemblyReference.cache
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.AssemblyInfoInputs.cache
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.AssemblyInfo.cs
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.csproj.CoreCompileInputs.cache
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.sourcelink.json
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraest.B0D41582.Up2Date
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.dll
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\refint\Infraestructure.dll
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\Infraestructure.pdb
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Infraestructure\obj\Debug\net8.0\ref\Infraestructure.dll

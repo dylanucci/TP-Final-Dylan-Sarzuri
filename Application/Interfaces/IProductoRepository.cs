@@ -1,4 +1,5 @@
-﻿using Application.Interfaces.CRUD;
+﻿using Application.DTOs;
+using Application.Interfaces.CRUD;
 using Domain;
 using System;
 using System.Collections.Generic;
@@ -10,5 +11,6 @@ namespace Application.Interfaces
 {
     public interface IProductoRepository : IRead<ProductoEntity>, ICreate<ProductoEntity>, IUpdate<ProductoEntity>, IDelete<ProductoEntity>
     {
+
     }
 }

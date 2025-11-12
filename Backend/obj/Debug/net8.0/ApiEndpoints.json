@@ -357,6 +357,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Backend.Controllers.ProductosController",
+    "Method": "GetCategorias",
+    "RelativePath": "api/Productos/Categorias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Application.DTOs.CategoriaDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Backend.Controllers.ComprasController",
     "Method": "GetComprasByCliente",
     "RelativePath": "Clientes/{Id}",
