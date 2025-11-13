@@ -10,7 +10,22 @@ namespace Domain
     {
         public int IdCategoria { get; set; }
 
-        public string Nombre { get; set; } = null!;
+        private string _nombre;
+        public string Nombre
+        {
+            get
+            {
+                return _nombre;
+            }
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new ArgumentNullException("El nombre no puede estar vacio");
+                }
+                _nombre = value;
+            }
+        }
 
         public virtual ICollection<ProductoEntity> Productos { get; set; } = new List<ProductoEntity>();
     }

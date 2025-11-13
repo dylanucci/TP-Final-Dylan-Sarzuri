@@ -15,7 +15,7 @@ namespace Application.DTOs
 
         public string Apellido { get; set; } = null!;
 
-        public string Telefono { get; set; } = null!;
+        public int Telefono { get; set; }
 
         public string Email { get; set; } = null!;
 

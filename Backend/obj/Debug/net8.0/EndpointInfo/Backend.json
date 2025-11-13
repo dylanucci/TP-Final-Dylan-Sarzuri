@@ -744,8 +744,8 @@
             "nullable": true
           },
           "telefono": {
-            "type": "string",
-            "nullable": true
+            "type": "integer",
+            "format": "int32"
           },
           "email": {
             "type": "string",

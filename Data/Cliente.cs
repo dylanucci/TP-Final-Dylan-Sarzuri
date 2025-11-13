@@ -13,7 +13,7 @@ public partial class Cliente
 
     public string Apellido { get; set; } = null!;
 
-    public string? Telefono { get; set; }
+    public int? Telefono { get; set; }
 
     public string Email { get; set; } = null!;
 

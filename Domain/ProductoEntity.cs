@@ -16,13 +16,21 @@ namespace Domain
         public string Nombre
         {
             get { return _nombre; }
-            set { _nombre = value; }
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new ArgumentNullException("El nombre no puede estar vacio");
+                }
+                _nombre = value;
+            }
         }
 
         public int Precio
         {
             get { return _precio; }
-            set { _precio = value; }
+            set { if (value <= 0) throw new ArgumentException("El precio no puede ser menor a 0"); 
+                  _precio = value; }
         }
 
         public int CategoriaId { get; set; }

@@ -7,6 +7,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -33,11 +34,16 @@ namespace Frontend
         {
             ClienteUI clienteUI = _serviceProvider.GetRequiredService<ClienteUI>();
 
+            if (int.TryParse(txtTelefono.Text, out int telefono))
+            {
+                MessageBox.Show("El telefono no puede contener letras");
+                return;
+            };
             var clienteDTO = new ClienteDTO()
             {
                 Nombre = txtNombre.Text,
                 Apellido = txtApellido.Text,
-                Telefono = txtTelefono.Text,
+                Telefono = telefono,
                 Email = txtEmail.Text,
                 Contraseña = txtContraseña.Text
             };
