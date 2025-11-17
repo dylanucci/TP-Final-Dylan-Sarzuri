@@ -308,3 +308,4 @@ D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Backend\obj\Debug\net8.0\Backend.
 D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Backend\obj\Debug\net8.0\Backend.genruntimeconfig.cache
 D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Backend\obj\Debug\net8.0\ref\Backend.dll
 D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Trabajos Laboratorio\TP-Final-Dylan-Sarzuri\Backend\obj\Debug\net8.0\swae.build.ex.cache
